@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="RAHAF_MSSQL.AdventureWorks2014"
+  DTS:DTSID="{3C275470-C078-4CA1-8D3A-8A4E80A7997A}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=RAHAF\MSSQL;Initial Catalog=AdventureWorks2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-AdventureWorks ETL-{3C275470-C078-4CA1-8D3A-8A4E80A7997A}RAHAF\MSSQL.AdventureWorks2014;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
